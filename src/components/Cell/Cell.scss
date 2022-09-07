@@ -1,0 +1,37 @@
+@import '../../styles/vars';
+
+.cell {
+  width: 100px;
+  height: 100px;
+
+  border: 8px solid $oxford-blue;
+
+  text-align: center;
+
+  font-size: 1.5em;
+  color: $oxford-blue;
+
+  &--0,
+  &--1,
+  &--2 {
+    border-top: none;
+  }
+
+  &--0,
+  &--3,
+  &--6 {
+    border-left: none;
+  }
+
+  &--6,
+  &--7,
+  &--8 {
+    border-bottom: none;
+  }
+
+  &--2,
+  &--5,
+  &--8 {
+    border-right: none;
+  }
+}

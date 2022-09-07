@@ -1,1 +1,5 @@
-/// <reference types="react-scripts" />
+interface Combos {
+  across: number[][];
+  down: number[][];
+  diagonals: number[][];
+}
