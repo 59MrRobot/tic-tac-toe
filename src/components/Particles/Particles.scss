@@ -1,0 +1,27 @@
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 17px);
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+
+  &--projects {
+    z-index: unset;
+  }
+
+  &--about {
+    z-index: unset;
+  }
+}
+
+.particle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+
+  background-color: #fff;
+}

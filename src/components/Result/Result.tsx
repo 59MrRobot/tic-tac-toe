@@ -1,4 +1,5 @@
 import React from 'react';
+import { Particles } from '../Particles';
 import './Result.scss';
 
 interface Props {
@@ -24,6 +25,10 @@ export const Result: React.FC<Props> = ({ winner,handleReset }) => {
         >
           Play Again
         </button>
+
+        {winner !== 'draw' && (
+          <Particles />
+        )}
       </div>
     </div>
   )
