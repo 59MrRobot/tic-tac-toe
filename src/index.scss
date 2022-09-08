@@ -1,3 +1,5 @@
+@import './styles/fonts';
+
 h1,
 h2,
 p,
@@ -8,4 +10,5 @@ body {
 
 * {
   box-sizing: border-box;
+  font-family: "Righteous", sans-serif;
 }
